@@ -13,18 +13,16 @@ printToConsole();
 
 /////////////////////////////
 
-const height = 640;
-const width = 960;
+const width = 1024;
+const height = 576;
 
 var canvas = document.getElementById("game");
 
-var screenHeightRatio = window.innerHeight / height;
-var screenWidthRatio = window.innerWidth / width;
-
-canvas.height = height;
 canvas.width = width;
+canvas.height = height;
 
 var ctx = canvas.getContext("2d");
 ctx.fillStyle = "red";
 ctx.fillRect(0, 0, width, height);
+//ctx.fillRect(0, 0, window.innerWidth * 0.9, window.innerHeight * 0.9);
 
