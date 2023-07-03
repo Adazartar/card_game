@@ -1,6 +1,17 @@
 # Unnamed Card Game
 
-Unnamed card game is a perfect information card game where players both draw from the same deck. They will take turns managing their cards and resources to whittle down the opponent by bringing their life total to 0. 
+Unnamed card game is a semi-perfect information card game where players both draw from the same deck. They will take turns managing their cards and resources to whittle down the opponent by bringing their life total to 0. As the game is semi-perfect information, both players will be able to see each others hands, however players will not be able to see the cards they are going to draw next.
+
+
+## Modes
+
+There are 3 modes planned.
+
+Player vs AI: Game will function for a single player versing an AI agent.
+
+Player vs Player (Local): Main focus of the game, each player will choose their move on the same device by passing control to the other player when their turn changes.
+
+Player vs Player (Online): May need to use a different hosting service for this, I'm thinking firebase realtime database where we upload the game state for a given game to a database, which can be read from each turn to update each players board state.
 
 ## Rules
 
