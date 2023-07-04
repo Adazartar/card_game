@@ -17,7 +17,7 @@ Player vs Player (Online): May need to use a different hosting service for this,
 
 ### Resource
 
-Players will begin the game with 1 resource. Each turn the player recieves resource equal to the resource recieved the prior turn + 1. For example turn 2 they will recieve 2 resource, then on turn 3 they will resource 3 resource. This continues up until players are recieving 5 resource a turn. Resource is maintained between turns, so not spending it will allow players to accumulate a large amount to use a bigger card.
+Resource is used to create units and to cast spells, once resource is used for this purpose it is removed from the player and they must wait to generate more resources on the following turns. Players will begin the game with 1 resource. Each turn the player recieves resource equal to the resource recieved the prior turn + 1. For example turn 2 they will recieve 2 resource, then on turn 3 they will resource 3 resource. This continues up until players are recieving 5 resource a turn. Resource is maintained between turns, so not spending it will allow players to accumulate a large amount to use a bigger card.
 
 ### Attacking
 
