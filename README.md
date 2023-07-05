@@ -23,6 +23,8 @@ Resource is used to create units and to cast spells, once resource is used for t
 
 Upon entering the attack phase a player will be assigned first depending on whether they were first last turn, if they weren't they become first this turn. The player that is attacking first decides what cards will be attacking from what location (subject to change - still need to decide how the board will play), upon confirming the player attacking second will respond by attacking by placing against the first players cards or to attack directly. The second player will have advantage in this regard as they can decide whether to let damage go through and also decide whether to attack directly (can make cards that benefit attacking first).
 
+(Potential idea) Each unit has a priority number, which determines the order that units attack in. Units with the same priority number will attack at the same time. This means a unit with a priority of 1 might kill a unit with a priority of 3 before it can attack. A unit can have multiple priority numbers making for multiple attacks, eg priority 1 3 5 vs a priority 3, priority 1 will hit the priority 3 before it can attack, then they will both hit each other on priority 3, then if the units are still alive the priority 1 3 5 will hit again on priority 5. Priority numbers can be though of as turns within the attacking phase.
+
 ### Cards in hand
 
 Players start the game with 5 cards in hand. At the start of each new turn excluding the first one they will draw 3 cards. This allows for more decisions to be considering for each turn. There is no maximum hand size.
